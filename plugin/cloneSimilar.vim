@@ -21,4 +21,4 @@ let g:loaded_cloneSimilar = 1
 call EditSimilar#CommandBuilder#SimilarFileOperations('Clone', 'CloneAs', 0, 1)
 call EditSimilar#CommandBuilder#SimilarFileOperations('SClone', 'SplitAs', 0, 1)
 
-" vim: set sts=4 sw=4 noexpandtab ff=unix fdm=syntax :
+" vim: set ts=8 sts=4 sw=4 noexpandtab ff=unix fdm=syntax :
