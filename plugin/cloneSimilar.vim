@@ -10,6 +10,7 @@
 " Maintainer:	Ingo Karkat <ingo@karkat.de>
 "
 " REVISION	DATE		REMARKS 
+"	002	17-Nov-2011	Rename :SplitAs to :SCloneAs. 
 "	001	08-Nov-2011	file creation
 
 " Avoid installing twice or when in unsupported Vim version. 
@@ -18,7 +19,7 @@ if exists('g:loaded_cloneSimilar') || (v:version < 700)
 endif
 let g:loaded_cloneSimilar = 1
 
-call EditSimilar#CommandBuilder#SimilarFileOperations('Clone', 'CloneAs', 0, 1)
-call EditSimilar#CommandBuilder#SimilarFileOperations('SClone', 'SplitAs', 0, 1)
+call EditSimilar#CommandBuilder#SimilarFileOperations('Clone',  'CloneAs',  0, 1)
+call EditSimilar#CommandBuilder#SimilarFileOperations('SClone', 'SCloneAs', 0, 1)
 
 " vim: set ts=8 sts=4 sw=4 noexpandtab ff=unix fdm=syntax :
