@@ -1,0 +1,74 @@
+*cloneSimilar.txt*      Create a duplicate clone of the current buffer with a similar name.
+
+		       CLONE SIMILAR    by Ingo Karkat
+							    *cloneSimilar.vim*
+description			|cloneSimilar-description|
+usage				|cloneSimilar-usage|
+installation			|cloneSimilar-installation|
+limitations			|cloneSimilar-limitations|
+known problems			|cloneSimilar-known-problems|
+todo				|cloneSimilar-todo|
+history				|cloneSimilar-history|
+
+==============================================================================
+DESCRIPTION					    *cloneSimilar-description*
+
+This plugin combines the buffer cloning functionality of |clone.vim|
+(vimscript #4896) with the selection of similar files provided by
+|EditSimilar.vim| (vimscript #2544) to provide |:CloneSubstitute|,
+|:ClonePlus| etc. command variants of the original |:CloneAs| command.
+
+==============================================================================
+USAGE							  *cloneSimilar-usage*
+		    *:ClonePlus* *:CloneMinus* *:CloneSubstitute* *:CloneRoot*
+		*:SClonePlus* *:SCloneMinus* *:SCloneSubstitute* *:SCloneRoot*
+:ClonePlus,  :CloneMinus,  :CloneSubstitute,  :CloneRoot
+:SClonePlus, :SCloneMinus, :SCloneSubstitute, :SCloneRoot
+			Duplicate and edit the current buffer to a file with a
+			similar name, using the substitutions and iterations
+			provided by the |EditSimilar.vim| plugin.
+
+==============================================================================
+INSTALLATION					   *cloneSimilar-installation*
+
+This script is packaged as a |vimball|. If you have the "gunzip" decompressor
+in your PATH, simply edit the *.vmb.gz package in Vim; otherwise, decompress
+the archive first, e.g. using WinZip. Inside Vim, install by sourcing the
+vimball or via the |:UseVimball| command. >
+    vim cloneSimilar*.vmb.gz
+    :so %
+To uninstall, use the |:RmVimball| command.
+
+DEPENDENCIES					   *cloneSimilar-dependencies*
+
+- Requires Vim 7.0 or higher.
+- Requires the |clone.vim| plugin (vimscript #4896), version 1.00 or
+  higher.
+- Requires the |EditSimilar.vim| plugin (vimscript #2544), version 2.10 or
+  higher.
+
+==============================================================================
+LIMITATIONS					    *cloneSimilar-limitations*
+
+KNOWN PROBLEMS					 *cloneSimilar-known-problems*
+
+TODO							   *cloneSimilar-todo*
+
+IDEAS							  *cloneSimilar-ideas*
+
+==============================================================================
+HISTORY							*cloneSimilar-history*
+
+1.00	18-Mar-2014
+First published version.
+
+0.01	08-Nov-2011
+Started development.
+
+==============================================================================
+Copyright: (C) 2011-2014 Ingo Karkat
+The VIM LICENSE applies to this plugin; see |copyright|.
+
+Maintainer:	Ingo Karkat <ingo@karkat.de>
+==============================================================================
+ vim:tw=78:ts=8:ft=help:norl:
