@@ -1,16 +1,16 @@
 " cloneSimilar.vim: Create a duplicate clone of the current buffer with a similar name.
 "
 " DEPENDENCIES:
-"   - clone.vim plugin.
-"   - EditSimilar/CommandBuilder.vim autoload script.
+"   - clone.vim plugin
+"   - EditSimilar/CommandBuilder.vim autoload script
 "
-" Copyright: (C) 2011-2012 Ingo Karkat
+" Copyright: (C) 2011-2014 Ingo Karkat
 "   The VIM LICENSE applies to this script; see ':help copyright'.
 "
 " Maintainer:	Ingo Karkat <ingo@karkat.de>
 "
 " REVISION	DATE		REMARKS
-"	004	26-Jul-2012	Adapt to changed EditSimilar interface.
+"   1.00.004	26-Jul-2012	Adapt to changed EditSimilar interface.
 "				Now completing any file extensions.
 "	003	09-Jun-2012	Add additional argument
 "				a:omitOperationsWorkingOnlyOnExistingFiles.
