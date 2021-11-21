@@ -4,15 +4,15 @@
 "   - clone.vim plugin
 "   - EditSimilar/CommandBuilder.vim autoload script
 "
-" Copyright: (C) 2011-2018 Ingo Karkat
+" Copyright: (C) 2011-2019 Ingo Karkat
 "   The VIM LICENSE applies to this script; see ':help copyright'.
 "
 " Maintainer:	Ingo Karkat <ingo@karkat.de>
 "
 " REVISION	DATE		REMARKS
 "   1.01.006	17-Oct-2018	ENH: Support partial cloning of :[range].
-"                               :CloneAs already does, we just need to inform
-"                               EditSimilar that the command supports it.
+"				:CloneAs already does, we just need to inform
+"				EditSimilar that the command supports it.
 "   1.01.005	19-Nov-2017	ENH: :CloneAs now supports [!].
 "   1.00.004	26-Jul-2012	Adapt to changed EditSimilar interface.
 "				Now completing any file extensions.
