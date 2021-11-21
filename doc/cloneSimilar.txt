@@ -22,8 +22,8 @@ This plugin combines the buffer cloning functionality of |clone.vim|
 USAGE							  *cloneSimilar-usage*
 		    *:ClonePlus* *:CloneMinus* *:CloneSubstitute* *:CloneRoot*
 		*:SClonePlus* *:SCloneMinus* *:SCloneSubstitute* *:SCloneRoot*
-:ClonePlus[!],  :CloneMinus[!],  :CloneSubstitute[!],  :CloneRoot[!]
-:SClonePlus[!], :SCloneMinus,[!] :SCloneSubstitute[!], :SCloneRoot[!]
+:[range]ClonePlus[!],  :CloneMinus[!],  :CloneSubstitute[!],  :CloneRoot[!]
+:[range]SClonePlus[!], :SCloneMinus,[!] :SCloneSubstitute[!], :SCloneRoot[!]
 			Duplicate and edit the current buffer to a file with a
 			similar name, using the substitutions and iterations
 			provided by the |EditSimilar.vim| plugin.
@@ -45,7 +45,7 @@ DEPENDENCIES					   *cloneSimilar-dependencies*
 - Requires Vim 7.0 or higher.
 - Requires the |clone.vim| plugin (vimscript #4896), version 1.00 or
   higher.
-- Requires the |EditSimilar.vim| plugin (vimscript #2544), version 2.10 or
+- Requires the |EditSimilar.vim| plugin (vimscript #2544), version 2.40 or
   higher.
 
 ==============================================================================
@@ -62,6 +62,7 @@ HISTORY							*cloneSimilar-history*
 
 1.01	RELEASEME
 - ENH: :CloneAs (version 1.10 or later) now supports [!].
+- ENH: Support partial cloning of :[range].
 
 1.00	18-Mar-2014
 First published version.
@@ -70,7 +71,7 @@ First published version.
 Started development.
 
 ==============================================================================
-Copyright: (C) 2011-2017 Ingo Karkat
+Copyright: (C) 2011-2018 Ingo Karkat
 The VIM LICENSE applies to this plugin; see |copyright|.
 
 Maintainer:	Ingo Karkat <ingo@karkat.de>
