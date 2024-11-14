@@ -56,7 +56,7 @@ https://github.com/inkarkat/vim-cloneSimilar/issues or email (address below).
 HISTORY
 ------------------------------------------------------------------------------
 
-##### 1.01    RELEASEME
+##### 1.01    14-Nov-2024
 - ENH: :CloneAs (version 1.10 or later) now supports [!].
 - ENH: Support partial cloning of :[range].
 
@@ -67,7 +67,7 @@ HISTORY
 - Started development.
 
 ------------------------------------------------------------------------------
-Copyright: (C) 2011-2022 Ingo Karkat -
+Copyright: (C) 2011-2024 Ingo Karkat -
 The [VIM LICENSE](http://vimdoc.sourceforge.net/htmldoc/uganda.html#license) applies to this plugin.
 
 Maintainer:     Ingo Karkat &lt;ingo@karkat.de&gt;
